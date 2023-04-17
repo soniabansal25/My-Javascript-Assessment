@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <title>Javascript Form Validation</title>
+      <link rel="stylesheet" href="styles.css" type="text/css">
+      <script defer src="scripts.js"></script>
+   </head>
+   <body>
+      <div id="container">
+         <div id="left-div">
+         <img src="illustration.svg" alt="background image" style="width:70%; text-align: center; margin: auto;">
+        <div id="left-bottom-text"; style="text-align: center;">
+            <h4>Start for free today!</h4>
+        </div>
+        </div>
+        
+        <div id="right-div">
+            <h2>Get Started</h2>
+            <h4>Already Have an Account?</h4>
+            <h4><a href="#" style="color:rgb(240, 57, 11);">Sign In</a></h4><br>
+            <div id="signup-btns">
+               <div id="google">
+                  <a href="https://google.com" id="btn"><img src="google-logo.png" width="20px" height="20px">Sign Up</a>
+               </div>
+               <div id="facebook">
+                  <a href="https://facebook.com" id="btn"><img src="facebook-logo.png" width="20px" height="20px">Sign Up</a>
+               </div>
+            </div>
+            <div id="or"><h4>OR</h4></div>
+            <div id="form-container">
+               <form id='form'action="https://www.facebook.com/hintmag/videos/when-a-ballet-dancer-dons-a-pink-unicorn-outfit-and-hits-the-streetsinstagramcom/1425432317645005/" method="GET" target="_blank">         
+                  <label for="uname">Username:</label>
+                  <input type="text" id="name" name="name"><br><br>
+                  <label for="email">Email:</label>
+                  <input type="text" id="email" name="email"><br><br>
+                  <label for="pwd">Password:</label>
+                  <input type="password" id="pwd" name="pwd"><br><br>
+                  <label for="pwd2">Password Confirmation:</label>
+                  <input type="password" id="pwd2" name="pwd2"><br><br>
+                  <label for="phone">Phone Number:</label>
+                  <input type="number" id="phone" name="phone"><br><br>
+                  <!-- <label for="dob">Date of Birth:</label>
+                  <input type="date" id="dob" name="dob"><br><br> -->
+                  <button type="submit" id="submit">Submit</button> 
+                  <div id="error"></div>
+                </form>
+               
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
